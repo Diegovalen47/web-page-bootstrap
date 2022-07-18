@@ -1,0 +1,19 @@
+{
+  "name": "web-design",
+  "version": "1.0.0",
+  "description": "Mi primer proyecto de Noje.js",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://San_Valen@bitbucket.org/san_valen/web-design.git"
+  },
+  "author": "Valentin Osorio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/san_valen/web-design/issues"
+  },
+  "homepage": "https://bitbucket.org/san_valen/web-design#readme"
+}
