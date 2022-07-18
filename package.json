@@ -4,6 +4,7 @@
   "description": "Mi primer proyecto de Noje.js",
   "main": "index.html",
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://bitbucket.org/san_valen/web-design/issues"
   },
-  "homepage": "https://bitbucket.org/san_valen/web-design#readme"
+  "homepage": "https://bitbucket.org/san_valen/web-design#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
