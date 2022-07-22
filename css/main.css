@@ -46,3 +46,8 @@ footer {
    background: rgba(92, 84, 202, 0.2);
    padding: 20px;
 }
+
+.no-link-a a{
+   text-decoration: none;
+   color: rgba(0, 0, 0, 0.896);
+}
