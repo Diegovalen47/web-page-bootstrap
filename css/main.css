@@ -32,9 +32,9 @@ h3 {
 
 button {
    border : 0;
-   background: #0087cc;
+   background: #3f474b;
    border-radius: 4px;
-   box-shadow: 0 5px 0 #006599;
+   box-shadow: 0 5px 0 #131718;
    color: #fff;
    cursor: pointer;
    font: inherit;
@@ -45,7 +45,7 @@ button {
 }
 
 button:active {
-   box-shadow: 0 2px 0 #006599;
+   box-shadow: 0 2px 0 #131718;
    transform: translateY(3px);
 }
 
