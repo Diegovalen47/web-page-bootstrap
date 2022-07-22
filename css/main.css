@@ -1,6 +1,11 @@
-header {
+nav {
+   padding: 10px;
+}
+
+.jumbotron {
    background: rgba(92, 84, 202, 0.2);
    padding: 20px;
+   margin-top: 56px;
 }
 
 .card-product {
