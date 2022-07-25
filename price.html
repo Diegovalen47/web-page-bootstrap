@@ -53,108 +53,91 @@
                <li class="breadcrumb-item active" aria-current="page">Precios</li>
             </ol>
          </nav>
-         <!-- Fila para ubicar los tipos de productos -->
-         <div class="row">
-            <!-- Por columnas ubicamos estos tipos -->
-            <div class="col-sm-4">
-               <p>
-                  <h2> Teclados </h2>
-                  <p>
-                     Gran variedad de teclados desde aquellos para oficina hasta
-                     los premium tanto para gamer como para caprichosos
-                  </p>
-               </p>
-            </div>
-            <div class="col-sm-4">
-               <p>
-                  <h2> Monitores </h2>
-                  <p>
-                     Gran variedad, tenemos curvos y bastante imersivos, sencillos solo
-                     para trabajar, y tambien estilo gamer con 144 Hz IPS 1ms
-                  </p>
-               </p>
-            </div>
-            <div class="col-sm-4">
-               <p>
-                  <h2> Mouse </h2>
-                  <p>
-                     Mouse livianos y de alto rendimiento
-                     tanto gamer como para productividad
-                  </p>
-               </p>
-            </div>
+         <!-- Ese div table responsive es para que al
+              ser muy grande la table en ancho, esta quede
+              con un scroll -->
+         <div class="table-responsive">
+            <table class="table table-hover table-striped">
+               <thead class="table-secondary">
+                  <th>Calidad</th>
+                  <th>Pinamar</th>
+                  <th>Mar del Plata</th>
+                  <th>San Clemente</th>
+                  <th>Santa Teresita</th>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>
+                        <i class="bi bi-star-fill"></i>
+                     </td>
+                     <td>$100</td>
+                     <td>$120</td>
+                     <td>$150</td>
+                     <td>180</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                     </td>
+                     <td>$200</td>
+                     <td>$220</td>
+                     <td>$250</td>
+                     <td>280</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                     </td>
+                     <td>$300</td>
+                     <td>$320</td>
+                     <td>$450</td>
+                     <td>480</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                     </td>
+                     <td>$300</td>
+                     <td>$320</td>
+                     <td>$450</td>
+                     <td>480</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                     </td>
+                     <td>$300</td>
+                     <td>$320</td>
+                     <td>$450</td>
+                     <td>480</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                     </td>
+                     <td>$300</td>
+                     <td>$320</td>
+                     <td>$450</td>
+                     <td>480</td>
+                  </tr>
+               </tbody>
+            </table>
          </div>
-         <!-- Esta es otra fila pero usando flex -->
-         <div class="d-flex flex-wrap">
-            <!-- Columnas usando la clase card-product, que son flex -->
-            <div class="card-product d-flex flex-column">
-               <div>
-                  <h3> ASUS Tuff gaming 144 Hz IPS 1m </h3>
-                  <p>
-                  1'000.000 $COP
-                  </p>
-               </div>
-               <div>
-                  <button> Comprar </button>
-               </div>
-            </div>
-            <div class="card-product d-flex flex-column">
-               <h3> Logitech G502 Hero </h3>
-               <p>
-                  265.000 $COP
-               </p>
-               <div>
-                  <button> Comprar </button>
-               </div>
-            </div>
-            <div class="card-product d-flex flex-column">
-               <h3> Teclado logitech TKL </h3>
-               <p>
-                  470.000 $COP
-               </p>
-               <div>
-                  <button> Comprar </button>
-               </div>
-            </div>
-            <div class="card-product d-flex flex-column">
-               <h3> Cascos Razer Blackshark V2 X </h3>
-               <p>
-                  180.000 $COP
-               </p>
-               <div>
-                  <button> Comprar </button>
-               </div>
-            </div>
-            <div class="card-product d-flex flex-column">
-               <h3> Logitech G502 Hero </h3>
-               <p>
-                  265.000 $COP
-               </p>
-               <div>
-                  <button> Comprar </button>
-               </div>
-            </div>
-            <div class="card-product d-flex flex-column">
-               <h3> Teclado logitech TKL </h3>
-               <p>
-                  470.000 $COP
-               </p>
-               <div>
-                  <button> Comprar </button>
-               </div>
-            </div>
-            <div class="card-product d-flex flex-column">
-               <div>
-                  <h3> Cascos Razer Blackshark V2 X </h3>
-                  <p>
-                     180.000 $COP
-                  </p>
-               </div>
-               <div>
-                  <button> Comprar </button>
-               </div>
-            </div>
-         </div> 
       </div>
    </main>
 
