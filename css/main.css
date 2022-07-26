@@ -2,20 +2,28 @@ nav {
    padding: 10px;
 }
 h3 {
-   font-size: 120%;
+   font-size: 20px;
+}
+h4 {
+   font-size: 15px;
 }
 
 .jumbotron {
    background: rgba(92, 84, 202, 0.2);
+   background-image: url(../images/banner_img.jpg);
    padding: 20px;
    margin-top: 56px;
 }
 
 .card-product {
-   flex: 1 150px;
-   padding: 2px 5px 2px 5px;
+   flex: 1 300px;
    justify-content: space-between;
-   margin-top: 10px;
+   margin: 4px;
+   padding: 10px 10px 10px 10px;
+}
+
+.card-footer {
+   padding-bottom: 17px;
 }
 
 .card-product button {
@@ -24,6 +32,11 @@ h3 {
 
 .card-product h3 {
    text-align: center;
+}
+
+.card-body img {
+   padding: 10px;
+
 }
 
 .container {
@@ -38,7 +51,7 @@ button {
    color: #fff;
    cursor: pointer;
    font: inherit;
-   margin: 10px 8px 8px 0px;
+   margin: 0 auto;
    outline: 0;
    padding: 8px 20px;
    transition: all .1s linear;
@@ -57,10 +70,6 @@ footer {
 .no-link-a a{
    text-decoration: none;
    color: rgba(0, 0, 0, 0.896);
-}
-
-h3+p {
-   text-align: center;
 }
 
 label {
