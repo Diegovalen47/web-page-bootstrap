@@ -43,7 +43,7 @@ h4 {
    padding: 10px;
 }
 
-button {
+.btn-custom {
    border : 0;
    background: #3f474b;
    border-radius: 4px;
@@ -57,7 +57,7 @@ button {
    transition: all .1s linear;
 }
 
-button:active {
+.btn-custom:active {
    box-shadow: 0 2px 0 #131718;
    transform: translateY(3px);
 }
