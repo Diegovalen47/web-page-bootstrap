@@ -52,10 +52,24 @@
                <li class="breadcrumb-item active" aria-current="page">Home</li>
             </ol>
          </nav>
+         <div class="row">
+            <div class="col-sm-4">
+               <button class="btn-custom" type="button" data-bs-toggle="collapse"
+               data-bs-target="#teclados" aria-expanded="false" aria-controls="multiCollapse1">Teclados</button>
+            </div>
+            <div class="col-sm-4">
+               <button class="btn-custom" type="button" data-bs-toggle="collapse"
+               data-bs-target="#monitores" aria-expanded="false" aria-controls="multiCollapse2">Monitores</button>
+            </div>
+            <div class="col-sm-4">
+               <button class="btn-custom" type="button" data-bs-toggle="collapse"
+               data-bs-target="#ratones" aria-expanded="false" aria-controls="multiCollapse3">Ratones</button>
+            </div>
+         </div>
          <!-- Fila para ubicar los tipos de productos -->
          <div class="row">
             <!-- Por columnas ubicamos estos tipos -->
-            <div class="col-sm-4">
+            <div class="col-sm-4 collapse multi-collapse" id="teclados">
                <p>
                   <h2> Teclados </h2>
                   <p>
@@ -64,7 +78,7 @@
                   </p>
                </p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 collapse multi-collapse" id="monitores">
                <p>
                   <h2> Monitores </h2>
                   <p>
@@ -73,7 +87,7 @@
                   </p>
                </p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 collapse multi-collapse" id="ratones">
                <p>
                   <h2> Mouse </h2>
                   <p>

@@ -80,6 +80,10 @@ label {
    margin-top: 12px;
 }
 
+.tab-content {
+   padding-top: 10px;
+}
+
 @media (max-width: 560px) {
    .responsive-footer {
       align-items: center !important;

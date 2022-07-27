@@ -53,86 +53,149 @@
                <li class="breadcrumb-item active" aria-current="page">Precios</li>
             </ol>
          </nav>
-         <!-- Ese div table responsive es para que al
+
+         <ul class="nav nav-pills" id="myTab" role="tablist">
+            <li class="nav-item">
+               <a class="nav-link active" id="compara-tab" data-bs-toggle="pill"
+               href="#compara" role="tab" aria-controls="compara"
+               aria-selected="true">Compara</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" id="tarjetas-tab" data-bs-toggle="pill"
+               href="#tarjetas" role="tab" aria-controls="tarjetas"
+               aria-selected="false">Tarjetas</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" id="comentarios-tab" data-bs-toggle="pill"
+               href="#comentarios" role="tab" aria-controls="comentarios"
+               aria-selected="false">Comentarios</a>
+            </li>
+         </ul>
+         <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="compara" role="tabpanel"
+            aria-labelledby="compara-tab">
+               <!-- Ese div table responsive es para que al
               ser muy grande la table en ancho, esta quede
               con un scroll -->
-         <div class="table-responsive">
-            <table class="table table-hover table-striped">
-               <thead class="table-secondary">
-                  <th>Producto</th>
-                  <th>Calidad</th>
-                  <th>Precio (COP $)</th>
-                  <th>Envio</th>
-                  <th>Importado</th>
-               </thead>
-               <tbody>
-                  <tr>
-                     <td>ASUS Tuff gaming </td>
-                     <td>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                     </td>
-                     <td>940.000</td>
-                     <td>SI</td>
-                     <td>SI</td>
-                  </tr>
-                  <tr>
-                     <td>AMD Ryzen 5 5600X</td>
-                     <td>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                     </td>
-                     <td>858.150</td>
-                     <td>SI</td>
-                     <td>SI</td>
-                  </tr>
-                  <tr>
-                     <td>Disco duro interno de 2 TB</td>
-                     <td>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                     </td>
-                     <td>226.978</td>
-                     <td>SI</td>
-                     <td>NO</td>
-                  </tr>
-                  <tr>
-                     <td>SSD 500Gb</td>
-                     <td>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                     </td>
-                     <td>367.733</td>
-                     <td>SI</td>
-                     <td>SI</td>
-                  </tr>
-                  <tr>
-                     <td>Samsung Galaxy Tab S6 Lite</td>
-                     <td>
-                        <i class="bi bi-star-fill"></i>
-                     </td>
-                     <td>1.443.871</td>
-                     <td>SI</td>
-                     <td>SI</td>
-                  </tr>
-               </tbody>
-            </table>
-         </div>
-         <div class="d-flex justify-content-center">
-            <div class="card" style="width: 18rem;">
-               <div class="card-header">
-                  Componentes
+               <div class="table-responsive">
+                  <table class="table table-hover table-striped">
+                     <thead class="table-secondary">
+                        <th>Producto</th>
+                        <th>Calidad</th>
+                        <th>Precio (COP $)</th>
+                        <th>Envio</th>
+                        <th>Importado</th>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>ASUS Tuff gaming </td>
+                           <td>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                           </td>
+                           <td>940.000</td>
+                           <td>SI</td>
+                           <td>SI</td>
+                        </tr>
+                        <tr>
+                           <td>AMD Ryzen 5 5600X</td>
+                           <td>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                           </td>
+                           <td>858.150</td>
+                           <td>SI</td>
+                           <td>SI</td>
+                        </tr>
+                        <tr>
+                           <td>Disco duro interno de 2 TB</td>
+                           <td>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                           </td>
+                           <td>226.978</td>
+                           <td>SI</td>
+                           <td>NO</td>
+                        </tr>
+                        <tr>
+                           <td>SSD 500Gb</td>
+                           <td>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                           </td>
+                           <td>367.733</td>
+                           <td>SI</td>
+                           <td>SI</td>
+                        </tr>
+                        <tr>
+                           <td>Samsung Galaxy Tab S6 Lite</td>
+                           <td>
+                              <i class="bi bi-star-fill"></i>
+                           </td>
+                           <td>1.443.871</td>
+                           <td>SI</td>
+                           <td>SI</td>
+                        </tr>
+                     </tbody>
+                  </table>
                </div>
-               <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Tecnologia</li>
-                  <li class="list-group-item">PCs</li>
-                  <li class="list-group-item">Moviles</li>
-               </ul>
+            </div>
+            <div  class="tab-pane fade" id="tarjetas" role="tabpanel"
+            aria-labelledby="tarjetas-tab">
+               <div class="accordion" id="acordionTarjetas">
+                  <div class="card">
+                     <div class="card-header" id="headingOne">
+                        <button class="btn btn-link" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTecnologia" aria-expanded="true" aria-controls="collapseTecnologia">
+                           Tecnologia
+                        </button>
+                     </div>
+                     <div id="collapseTecnologia" class="collapse show" aria-labelledby="headingOne"
+                     data-parent="#acordionTarjetas">
+                        <div class="card-body">
+                           Encuentra todo lo relacionado con tecnologia
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card">
+                     <div class="card-header" id="headingTwo">
+                        <button class="btn btn-link" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsePcs" aria-expanded="false" aria-controls="collapsePcs">
+                           PCs
+                        </button>
+                     </div>
+                     <div id="collapsePcs" class="collapse" aria-labelledby="headingTwo"
+                     data-parent="#acordionTarjetas">
+                        <div class="card-body">
+                           Encuentra todo lo relacionado con PCS y sus
+                           caracteristicas
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card">
+                     <div class="card-header" id="headingThree">
+                        <button class="btn btn-link" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseMoviles" aria-expanded="false" aria-controls="collapseMoviles">
+                           Moviles
+                        </button>
+                     </div>
+                     <div id="collapseMoviles" class="collapse" aria-labelledby="headingThree"
+                     data-parent="#acordionTarjetas">
+                        <div class="card-body">
+                           Encuentra todo lo relacionado con Moviles
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div  class="tab-pane fade" id="comentarios" role="tabpanel"
+            aria-labelledby="comentarios-tab">
+               Comentarios
             </div>
          </div>
       </div>
