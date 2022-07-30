@@ -1,0 +1,83 @@
+nav {
+  padding: 10px; }
+
+h3 {
+  font-size: 20px; }
+
+h4 {
+  font-size: 15px; }
+
+.carousel-item img {
+  width: 460px;
+  height: 320px; }
+
+.jumbotron {
+  background: #5c54ca33;
+  background-image: url(../images/banner_img.jpg);
+  padding: 20px;
+  margin-top: 56px; }
+
+.card-product {
+  flex: 1 300px;
+  justify-content: space-between;
+  margin: 4px;
+  padding: 10px 10px 10px 10px; }
+
+.card-footer {
+  padding-bottom: 17px; }
+
+.card-product button {
+  width: 100%; }
+
+.card-product h3 {
+  text-align: center; }
+
+.card-body img {
+  padding: 10px; }
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.container {
+  padding: 10px; }
+
+.btn-custom {
+  border: 0;
+  background: #3f474b;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #131718;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  margin: 0 auto;
+  outline: 0;
+  padding: 8px 20px;
+  transition: all .1s linear; }
+
+.btn-custom:active {
+  box-shadow: 0 2px 0 #131718;
+  transform: translateY(3px); }
+
+footer {
+  background: rgba(92, 84, 202, 0.2);
+  padding: 20px; }
+
+.no-link-a a {
+  text-decoration: none;
+  color: #131718; }
+
+label {
+  margin-top: 8px; }
+
+.form-check-input {
+  margin-top: 12px; }
+
+.tab-content {
+  padding-top: 10px; }
+
+@media (max-width: 560px) {
+  .responsive-footer {
+    align-items: center !important;
+    padding: 15px; } }

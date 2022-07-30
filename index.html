@@ -10,7 +10,7 @@
    <!-- Enlace a carpetas de estilos: Boostrasp > Boostrap icons > Principal -->
    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
-   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/styles.css">
    <title> Document </title>
 </head>
 
@@ -136,7 +136,7 @@
                      Monitor de alto rendimiento 
                      para gaming 144 Hz IPS 1m
                   </p>
-                  <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                  <button type="button" class="btn btn-outline-success cont" data-bs-toggle="modal"
                   data-bs-target="#exampleModal" data-bs-whatever="@mdo">
                      Contacto
                   </button>
@@ -162,7 +162,7 @@
                      6 núcleos y 12 hilos desbloqueados procesador
                      de escritorio con Wraith Stealth Cooler
                   </p>
-                  <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                  <button type="button" class="btn btn-outline-success cont" data-bs-toggle="modal"
                   data-bs-target="#exampleModal" data-bs-whatever="@mdo">
                      Contacto
                   </button>
@@ -190,7 +190,7 @@
                      3.5 pulgadas, embalaje libre de 
                      frustración (ST2000DM008 / ST2000DMZ08)
                   </p>
-                  <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                  <button type="button" class="btn btn-outline-success cont" data-bs-toggle="modal"
                   data-bs-target="#exampleModal" data-bs-whatever="@mdo">
                      Contacto
                   </button>
@@ -217,7 +217,7 @@
                      NVMe M.2 de 500GB PCIe 4.0, 
                      hasta 6600MB/s - CT500P5PSSD8
                   </p>
-                  <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                  <button type="button" class="btn btn-outline-success cont" data-bs-toggle="modal"
                   data-bs-target="#exampleModal" data-bs-whatever="@mdo">
                      Contacto
                   </button>
@@ -245,7 +245,7 @@
                      con wifi, rosada, 
                      SM-P610NZIAXAR
                   </p>
-                  <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                  <button type="button" id="contactoBtn" class="btn btn-outline-success cont" data-bs-toggle="modal"
                   data-bs-target="#exampleModal" data-bs-whatever="@mdo">
                      Contacto
                   </button>
@@ -329,6 +329,32 @@
             interval: 1000
          })
       });
+
+      $('#exampleModal').on('show.bs.modal', function (e) {
+         console.log('El modal se está mostrando')
+
+         $('#contactoBtn').removeClass('btn-outline-success');
+         $('#contactoBtn').addClass('btn-primary');
+         $('#contactoBtn').prop('disabled', true);
+
+      })
+
+      $('#exampleModal').on('shown.bs.modal', function (e) {
+         console.log('El modal se muestra')
+      })
+
+      $('#exampleModal').on('hide.bs.modal', function (e) {
+         console.log('El modal se está ocultando')
+
+         $('#contactoBtn').removeClass('btn-primary');
+         $('#contactoBtn').addClass('btn-outline-success');
+         $('#contactoBtn').prop('disabled', false);
+      })
+
+      $('#exampleModal').on('hidden.bs.modal', function (e) {
+         console.log('El modal se ocultó')
+      })
+
    </script>
 </body>
 </html>

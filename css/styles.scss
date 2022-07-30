@@ -1,0 +1,114 @@
+$yellow: #f0c91d;
+$red: #800909;
+$greed:#159c09;
+$clear-blue: #5c54ca33;
+$gray : #3f474b;
+$black: #131718;
+$white: #fff;
+
+@mixin tamano($width, $height) {
+   width: $width;
+   height: $height;
+}
+
+nav {
+   padding: 10px;
+}
+h3 {
+   font-size: 20px;
+}
+h4 {
+   font-size: 15px;
+}
+
+.carousel-item img {
+   @include tamano(460px, 320px);
+}
+
+.jumbotron {
+   background: $clear-blue;
+   background-image: url(../images/banner_img.jpg);
+   padding: 20px;
+   margin-top: 56px;
+}
+
+.card-product {
+   flex: 1 300px;
+   justify-content: space-between;
+   margin: 4px;
+   padding: 10px 10px 10px 10px;
+}
+
+.card-footer {
+   padding-bottom: 17px;
+}
+
+.card-product button {
+   width: 100%;
+}
+
+.card-product h3 {
+   text-align: center;
+}
+
+.card-body img {
+   padding: 10px;
+}
+
+.card-body {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between
+}
+
+.container {
+   padding: 10px;
+}
+
+.btn-custom {
+   border : 0;
+   background: $gray;
+   border-radius: 4px;
+   box-shadow: 0 5px 0 $black;
+   color: $white;
+   cursor: pointer;
+   font: inherit;
+   margin: 0 auto;
+   outline: 0;
+   padding: 8px 20px;
+   transition: all .1s linear;
+}
+
+.btn-custom:active {
+   box-shadow: 0 2px 0 $black;
+   transform: translateY(3px);
+}
+
+footer {
+   background: rgba(92, 84, 202, 0.2);
+   padding: 20px;
+}
+
+.no-link-a a{
+   text-decoration: none;
+   color: $black;
+}
+
+label {
+   margin-top: 8px;
+}
+
+.form-check-input {
+   margin-top: 12px;
+}
+
+.tab-content {
+   padding-top: 10px;
+}
+
+@media (max-width: 560px) {
+   .responsive-footer {
+      align-items: center !important;
+      padding: 15px;
+   }
+}
