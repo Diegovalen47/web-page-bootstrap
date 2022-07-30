@@ -8,6 +8,11 @@ h4 {
    font-size: 15px;
 }
 
+.carousel-item img {
+   width: 460px;
+   height: 320px;
+}
+
 .jumbotron {
    background: rgba(92, 84, 202, 0.2);
    background-image: url(../images/banner_img.jpg);
