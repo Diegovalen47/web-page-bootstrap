@@ -1,29 +1,13 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Ap;icacion e-commerce de productos
 
-### What is this repository for? ###
+Para correr la aplicacion, luego de clonar el repositorio localmente
+1. Abrir una consola en la ubicación del proyecto.
+2. Tener instalado Node.js
+3. Ejecutar comando `npm install`
+4. Ejecutar comando `npm run dev`
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+Algunas imagenes del proyecto
 
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+<img src="imagenes-bootstrap/home-page.png" alt="Home Page"/>
