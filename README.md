@@ -11,3 +11,7 @@ Para correr la aplicacion, luego de clonar el repositorio localmente
 Algunas imagenes del proyecto
 
 <img src="imagenes-bootstrap/home-page.png" alt="Home Page"/>
+<img src="imagenes-bootstrap/products.png" alt="Products"/>
+<img src="imagenes-bootstrap/responsive.png" alt="responsive"/>
+<img src="imagenes-bootstrap/form.png" alt="Form"/>
+<img src="imagenes-bootstrap/table-footer.png" alt="Table and footer"/>
